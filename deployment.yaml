@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: static-nodejs-app
-          image: vikashforsrm/nodejs-docker-static-app:latest
+          image: vikashforsrm/nodejs-docker-static-app:VERSION_TAG
           ports:
             - containerPort: 3000
               protocol: TCP
